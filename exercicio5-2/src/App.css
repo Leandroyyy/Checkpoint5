@@ -1,0 +1,18 @@
+html{
+    /* Colors generated on: https://colorhunt.co/palette/179481 */
+    background: linear-gradient(45deg, #12D3CF, #67EACA, #B0F4E6, #FCF9EC);
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+  }
+
+  @keyframes colors {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
