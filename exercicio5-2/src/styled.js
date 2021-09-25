@@ -7,9 +7,11 @@ export const Html = styled.html`
 export const Titulo = styled.header`
 
     background-image:linear-gradient(to right,#4682B4,#00FFFF);
-    display:flex;
     margin-bottom:1rem;
-    width:50vw;
+    width:70vw;
+    height:12vh;
+    padding:1rem;
+    display:flex;
     flex-direction:column;
     align-items:center;
     border-radius:20px;
@@ -31,7 +33,7 @@ export const Sabores = styled.section`
     align-items:center;
 
     h2{
-        color:#474F85;
+        color:#87CEFA;
     }
 
     ul{
@@ -46,6 +48,8 @@ export const Sabores = styled.section`
 `
 
 export const Borda = styled.div`
+
+    background:#191970;
     border-style:double;
     border-color:#B0E0E6;
     border-width:1rem;
