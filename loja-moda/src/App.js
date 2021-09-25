@@ -1,5 +1,5 @@
 import "./App.css";
-import { Route , Switch} from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import Menu from "./components/menu/Menu";
 import Home from "./components/home/Home";
 import ModaMasculina from "./components/modaMasculina/ModaMasculina";
@@ -11,15 +11,15 @@ import Rodape from "./components/rodape/Rodape";
 function App() {
   return (
     <>
-      <Menu/>
+      <Menu />
       <Switch>
-        <Route path="/" exact component={Home}/>
-        <Route path="/ModaMasculina" component={ModaMasculina}/>
-        <Route path="/ModaFeminina" component={ModaFeminina}/>
-        <Route path="/ModaInfantil" component={ModaInfantil}/>
-        <Route path="/Sobre" component={Sobre}/>
+        <Route path="/" exact component={Home} />
+        <Route path="/ModaMasculina" component={ModaMasculina} />
+        <Route path="/ModaFeminina" component={ModaFeminina} />
+        <Route path="/ModaInfantil" component={ModaInfantil} />
+        <Route path="/Sobre" component={Sobre} />
       </Switch>
-      <Rodape/>
+      <Rodape />
     </>
   );
 }
