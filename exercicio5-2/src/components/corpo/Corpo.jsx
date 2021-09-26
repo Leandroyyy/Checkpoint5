@@ -16,6 +16,7 @@ export default function Corpo(){
                 
                 <h2>Acompanhamentos</h2>
                 <ul>
+                    
                     <li>Cereja</li>
                     <li>Balas Fini</li>
                     <li>Marshmallow</li>

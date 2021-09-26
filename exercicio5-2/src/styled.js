@@ -31,9 +31,15 @@ export const Sabores = styled.section`
     display:flex;
     flex-direction:column;
     align-items:center;
+    
 
     h2{
         color:#87CEFA;
+        margin-top:0.5rem;
+        padding:1rem;
+        border-style:outset;
+        border-color:#B0E0E6;
+        overflow:scroll;
     }
 
     ul{
@@ -42,7 +48,7 @@ export const Sabores = styled.section`
 
     li{
         color:#6D70C6;
-        
+        padding:0.1rem;
     }
 
 `
@@ -72,6 +78,8 @@ export const Endereco = styled.footer`
     position: absolute;
     bottom:0;
     width:100vw;
+    height:5vh;
+    padding:0.7rem;
 
     background-image:linear-gradient(to right,#00FFFF,#4682B4);
 
