@@ -7,10 +7,12 @@ import ModaFeminina from "./components/modaFeminina/ModaFeminina";
 import ModaInfantil from "./components/ModaInfantil/ModaInfantil";
 import Sobre from "./components/sobre/Sobre";
 import Rodape from "./components/rodape/Rodape";
+import { Html } from "./styled";
 
 function App() {
   return (
     <>
+    <Html>
       <Menu />
       <Switch>
         <Route path="/" exact component={Home} />
@@ -20,6 +22,7 @@ function App() {
         <Route path="/Sobre" component={Sobre} />
       </Switch>
       <Rodape />
+      </Html> 
     </>
   );
 }

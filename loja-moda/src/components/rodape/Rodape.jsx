@@ -1,10 +1,11 @@
+import { Pe } from "../../styled";
 
 export default function Rodape(){
     return(
         <>
-            <footer>
-                <p>testando aqui o pezinho</p>
-            </footer>
+            <Pe>
+                <p>Leandro Boutique - Todos os direitos reservados</p>
+            </Pe>
         </>
     )
 }
